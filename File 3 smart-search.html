@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Search - Travel With Pravah</title>
+    <link rel="stylesheet" href="styles3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="File 1.html" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
+                    <div class="logo-icon">P</div>
+                    <span class="logo-text">Travel With Pravah</span>
+                </a>
+            </div>
+            <nav>
+                <a href="File 1.html">Home</a>
+                <a href="File 2 understanding.html">How It Works</a>
+                <a href="pravah-travel.html#destinations">Destinations</a>
+                <a href="File 3 smart-search.html" class="active">Smart Search</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a href="#booking" class="nav-btn">Booking</a>
+                <a href="File 4 signup.html" class="nav-btn">Sign Up</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="search-hero">
+        <div class="search-hero-content">
+            <h1>Smart Journey Search</h1>
+            <p>Experience the power of intelligent travel optimization</p>
+        </div>
+    </section>
+
+    <!-- Search Form Section -->
+    <section class="search-form-section">
+        <div class="search-form-container">
+            <div class="search-form-card">
+                <h2>Plan Your Perfect Journey</h2>
+                <p class="search-form-subtitle">Let us find the most intelligent route for your travels</p>
+                
+                <form class="journey-form">
+                    <div class="form-row-double">
+                        <div class="form-group">
+                            <label>Departing From</label>
+                            <select required>
+                                <option value="">Select your origin city</option>
+                                <option>Varanasi</option>
+                                <option>Delhi</option>
+                                <option>Mumbai</option>
+                                <option>Bangalore</option>
+                                <option>Kolkata</option>
+                                <option>Chennai</option>
+                                <option>Hyderabad</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Traveling To</label>
+                            <select required>
+                                <option value="">Select your destination</option>
+                                <option>Varanasi</option>
+                                <option>Delhi</option>
+                                <option>Mumbai</option>
+                                <option>Bangalore</option>
+                                <option>Kolkata</option>
+                                <option>Chennai</option>
+                                <option>Hyderabad</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row-double">
+                        <div class="form-group">
+                            <label>Departure Date</label>
+                            <input type="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Number of Travelers</label>
+                            <select required>
+                                <option>1 Traveler</option>
+                                <option>2 Travelers</option>
+                                <option>3 Travelers</option>
+                                <option>4 Travelers</option>
+                                <option>5+ Travelers</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-preferences">
+                        <label class="preference-label">Travel Preferences</label>
+                        <div class="checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox">
+                                <span>Flexible with timing</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox">
+                                <span>Prefer direct routes</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox">
+                                <span>Budget priority</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="search-submit-btn">Find Smart Routes</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Section -->
+    <section class="comparison-section">
+        <div class="comparison-container">
+            <h2 class="comparison-title">See The Difference</h2>
+            <p class="comparison-subtitle">How TWP optimizes your travel experience and budget</p>
+            
+            <div class="comparison-grid">
+                <!-- Normal Travel Card -->
+                <div class="comparison-card normal-card">
+                    <div class="card-badge">Standard Booking</div>
+                    <h3>Traditional Travel</h3>
+                    <div class="price-display">
+                        <span class="currency">₹</span>
+                        <span class="amount">4,250</span>
+                        <p class="price-label">Estimated Cost</p>
+                    </div>
+                    <div class="features-list">
+                        <div class="feature-item negative">
+                            <span class="icon">✗</span>
+                            <span>Single platform booking</span>
+                        </div>
+                        <div class="feature-item negative">
+                            <span class="icon">✗</span>
+                            <span>No route optimization</span>
+                        </div>
+                        <div class="feature-item negative">
+                            <span class="icon">✗</span>
+                            <span>Standard pricing only</span>
+                        </div>
+                        <div class="feature-item negative">
+                            <span class="icon">✗</span>
+                            <span>Limited timing options</span>
+                        </div>
+                        <div class="feature-item negative">
+                            <span class="icon">✗</span>
+                            <span>No fare alerts</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Smart Travel Card -->
+                <div class="comparison-card smart-card">
+                    <div class="card-badge smart-badge">Optimized by TWP</div>
+                    <h3>Smart Travel</h3>
+                    <div class="price-display">
+                        <span class="currency">₹</span>
+                        <span class="amount">3,150</span>
+                        <p class="price-label savings">Save 26% (₹1,100)</p>
+                    </div>
+                    <div class="features-list">
+                        <div class="feature-item positive">
+                            <span class="icon">✓</span>
+                            <span>Multi-platform optimization</span>
+                        </div>
+                        <div class="feature-item positive">
+                            <span class="icon">✓</span>
+                            <span>Intelligent route planning</span>
+                        </div>
+                        <div class="feature-item positive">
+                            <span class="icon">✓</span>
+                            <span>Dynamic pricing analysis</span>
+                        </div>
+                        <div class="feature-item positive">
+                            <span class="icon">✓</span>
+                            <span>Best timing suggestions</span>
+                        </div>
+                        <div class="feature-item positive">
+                            <span class="icon">✓</span>
+                            <span>Real-time fare alerts</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="search-benefits-section">
+        <div class="search-benefits-container">
+            <h2>Why Choose Smart Search?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-box">
+                    <div class="benefit-icon">💰</div>
+                    <h3>Maximum Savings</h3>
+                    <p>Our algorithm finds the best prices across multiple platforms and routes</p>
+                </div>
+                <div class="benefit-box">
+                    <div class="benefit-icon">⚡</div>
+                    <h3>Instant Results</h3>
+                    <p>Get optimized journey options in seconds, not hours of manual searching</p>
+                </div>
+                <div class="benefit-box">
+                    <div class="benefit-icon">🎯</div>
+                    <h3>Personalized Routes</h3>
+                    <p>Tailored recommendations based on your preferences and travel style</p>
+                </div>
+                <div class="benefit-box">
+                    <div class="benefit-icon">🔔</div>
+                    <h3>Price Alerts</h3>
+                    <p>Never miss a deal with smart notifications for fare drops</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section-wrapper">
+        <div class="cta-box">
+            <h2>Ready to Travel Smarter?</h2>
+            <p>Join thousands of travelers who save money and time with TWP</p>
+            <div class="cta-buttons">
+                <a href="File 4 signup.html" class="cta-btn-gold">Create Free Account</a>
+                <a href="File 2 understanding.html" class="cta-btn-gold-outline">Learn How It Works</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Destinations</h3>
+                <ul>
+                    <li><a href="#">Mountains</a></li>
+                    <li><a href="#">Beaches</a></li>
+                    <li><a href="#">Cities</a></li>
+                    <li><a href="#">Heritage Sites</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Trip Planning</a></li>
+                    <li><a href="#">Hotel Booking</a></li>
+                    <li><a href="#">Transport</a></li>
+                    <li><a href="#">Tour Guides</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Email Us</a></li>
+                    <li><a href="#">Call Us</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Travel With Pravah. All rights reserved.</p>
+            <p>Unlock full insights with a TWP account</p>
+        </div>
+    </footer>
+</body>
+</html>
