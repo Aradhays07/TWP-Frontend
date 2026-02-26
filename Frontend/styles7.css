@@ -2683,3 +2683,1058 @@ nav a.active::after {
         flex-direction: column;
     }
 }
+
+/* ===========================
+   Share/Advocacy Page Styles
+   =========================== */
+
+/* Share Hero */
+.share-hero {
+    background: linear-gradient(135deg, var(--antique-bronze) 0%, var(--bronze-dark) 100%);
+    padding: 80px 40px 60px;
+    text-align: center;
+    color: white;
+}
+
+.share-hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    color: white;
+    font-weight: 700;
+}
+
+.share-hero-content p {
+    font-size: 1.3rem;
+    color: var(--cream);
+}
+
+/* Share Section */
+.share-section {
+    padding: 80px 40px;
+    background: linear-gradient(to bottom, var(--cream), var(--pearl-stone));
+}
+
+.share-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* Referral Card */
+.referral-card {
+    background: linear-gradient(135deg, white, #FFFBF5);
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15);
+    border: 3px solid var(--antique-bronze);
+    text-align: center;
+}
+
+.referral-header {
+    margin-bottom: 40px;
+}
+
+.referral-icon {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.referral-card h2 {
+    font-size: 2.5rem;
+    color: var(--obsidian-navy);
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
+.referral-subtitle {
+    font-size: 1.1rem;
+    color: var(--text-light);
+    font-style: italic;
+}
+
+/* Code Display */
+.code-display {
+    margin-bottom: 40px;
+}
+
+.code-box {
+    background: linear-gradient(135deg, var(--antique-bronze), var(--bronze-dark));
+    border-radius: 12px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    box-shadow: 0 8px 25px rgba(166, 124, 45, 0.4);
+}
+
+.code-text {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: white;
+    font-family: 'Courier New', monospace;
+}
+
+.copy-code-btn {
+    background-color: white;
+    color: var(--antique-bronze);
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+.copy-code-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.copy-icon {
+    font-size: 1.2rem;
+}
+
+/* Referral Benefits */
+.referral-benefits {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 30px;
+    padding: 30px;
+    background-color: var(--cream);
+    border-radius: 12px;
+}
+
+.benefit-column {
+    text-align: center;
+}
+
+.benefit-badge {
+    background-color: var(--antique-bronze);
+    color: white;
+    padding: 6px 18px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.benefit-amount {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--antique-bronze);
+    margin-bottom: 5px;
+}
+
+.benefit-column p {
+    color: var(--text-light);
+    font-size: 1rem;
+}
+
+.benefit-divider {
+    font-size: 2rem;
+    color: var(--antique-bronze);
+    font-weight: 700;
+}
+
+.referral-terms {
+    color: var(--text-light);
+    font-size: 0.95rem;
+    margin-bottom: 35px;
+    line-height: 1.6;
+}
+
+/* Share Buttons */
+.share-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.share-btn {
+    padding: 14px 28px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+}
+
+.share-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-btn {
+    background-color: #25D366;
+    color: white;
+}
+
+.email-btn {
+    background-color: #EA4335;
+    color: white;
+}
+
+.link-btn {
+    background-color: var(--obsidian-navy);
+    color: white;
+}
+
+.btn-icon {
+    font-size: 1.3rem;
+}
+
+/* Social Share Card */
+.social-share-card {
+    background-color: white;
+    border-radius: 16px;
+    padding: 45px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.social-share-card h2 {
+    font-size: 2.2rem;
+    color: var(--obsidian-navy);
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.social-subtitle {
+    text-align: center;
+    color: var(--text-light);
+    font-size: 1.05rem;
+    margin-bottom: 35px;
+}
+
+.social-buttons-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.social-btn {
+    padding: 18px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+.social-btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.facebook-btn {
+    background-color: #1877F2;
+}
+
+.twitter-btn {
+    background-color: #000000;
+}
+
+.instagram-btn {
+    background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF);
+}
+
+.linkedin-btn {
+    background-color: #0A66C2;
+}
+
+.social-icon {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+/* Sample Post */
+.sample-post {
+    background: linear-gradient(135deg, #FEF3C7, #FDE68A);
+    border-radius: 12px;
+    padding: 30px;
+    border-left: 4px solid #F59E0B;
+}
+
+.sample-post h3 {
+    font-size: 1.3rem;
+    color: var(--obsidian-navy);
+    margin-bottom: 15px;
+}
+
+.post-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.post-content p {
+    color: var(--text-dark);
+    line-height: 1.7;
+    font-size: 1.05rem;
+}
+
+.copy-post-btn {
+    background-color: var(--antique-bronze);
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.copy-post-btn:hover {
+    background-color: var(--bronze-dark);
+    transform: translateY(-2px);
+}
+
+/* Referral Stats Card */
+.referral-stats-card {
+    background: linear-gradient(135deg, var(--obsidian-navy), #1a2f4a);
+    border-radius: 16px;
+    padding: 45px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.referral-stats-card h2 {
+    font-size: 2.2rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.stat-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 30px 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.stat-box:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    transform: translateY(-5px);
+}
+
+.stat-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.stat-number {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--antique-bronze);
+    margin-bottom: 8px;
+}
+
+.stat-label {
+    color: var(--pearl-stone);
+    font-size: 0.95rem;
+}
+
+/* Community Card */
+.community-card {
+    background-color: white;
+    border-radius: 16px;
+    padding: 50px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.community-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.community-header h2 {
+    font-size: 2.5rem;
+    color: var(--obsidian-navy);
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.community-header p {
+    font-size: 1.1rem;
+    color: var(--text-light);
+}
+
+.community-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.community-stat {
+    background: linear-gradient(135deg, var(--cream), #FFFBF5);
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid rgba(166, 124, 45, 0.2);
+}
+
+.community-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--antique-bronze);
+    margin-bottom: 8px;
+}
+
+.community-label {
+    color: var(--text-light);
+    font-size: 1rem;
+}
+
+.community-features {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 35px;
+}
+
+.feature-item {
+    display: flex;
+    gap: 20px;
+    align-items: start;
+    padding: 20px;
+    background-color: var(--cream);
+    border-radius: 10px;
+}
+
+.feature-icon {
+    font-size: 2rem;
+}
+
+.feature-text h4 {
+    font-size: 1.2rem;
+    color: var(--obsidian-navy);
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.feature-text p {
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
+.community-btn {
+    width: 100%;
+    background: linear-gradient(135deg, var(--antique-bronze), var(--bronze-dark));
+    color: white;
+    padding: 18px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.community-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(166, 124, 45, 0.4);
+}
+
+/* Share Testimonials */
+.share-testimonials {
+    background-color: white;
+    border-radius: 16px;
+    padding: 45px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.share-testimonials h2 {
+    font-size: 2.2rem;
+    color: var(--obsidian-navy);
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.testimonials-slider {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.testimonial-item {
+    background: linear-gradient(135deg, var(--cream), #FFFBF5);
+    padding: 30px;
+    border-radius: 12px;
+    border-left: 4px solid var(--antique-bronze);
+}
+
+.testimonial-stars {
+    color: #F59E0B;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.testimonial-text {
+    color: var(--text-dark);
+    line-height: 1.7;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.testimonial-author {
+    border-top: 2px solid #E0D5C7;
+    padding-top: 15px;
+}
+
+.testimonial-author strong {
+    display: block;
+    color: var(--antique-bronze);
+    font-size: 1.05rem;
+    margin-bottom: 3px;
+}
+
+.testimonial-author span {
+    color: var(--text-light);
+    font-size: 0.9rem;
+}
+
+/* Share Page Responsive Styles */
+@media (max-width: 1024px) {
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .community-stats {
+        grid-template-columns: 1fr;
+    }
+
+    .social-buttons-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .testimonials-slider {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .share-hero-content h1 {
+        font-size: 2.2rem;
+    }
+
+    .referral-card {
+        padding: 30px 20px;
+    }
+
+    .code-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .code-text {
+        font-size: 1.5rem;
+    }
+
+    .referral-benefits {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .share-buttons {
+        flex-direction: column;
+    }
+
+    .share-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .social-buttons-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .community-card {
+        padding: 30px 20px;
+    }
+}
+
+/* ===========================
+   Forms/Contribution Page Styles
+   =========================== */
+
+/* Forms Hero */
+.forms-hero {
+    background: linear-gradient(135deg, var(--obsidian-navy) 0%, #1a2f4a 100%);
+    padding: 80px 40px 60px;
+    text-align: center;
+    color: white;
+}
+
+.forms-hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    color: white;
+    font-weight: 700;
+}
+
+.forms-hero-content p {
+    font-size: 1.3rem;
+    color: var(--pearl-stone);
+}
+
+/* Forms Section */
+.forms-section {
+    padding: 80px 40px;
+    background: linear-gradient(to bottom, var(--cream), var(--pearl-stone));
+}
+
+.forms-container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+/* Forms Introduction */
+.forms-intro {
+    text-align: center;
+}
+
+.forms-intro h2 {
+    font-size: 2.5rem;
+    color: var(--obsidian-navy);
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.intro-text {
+    font-size: 1.15rem;
+    color: var(--text-light);
+    max-width: 700px;
+    margin: 0 auto 50px;
+    line-height: 1.7;
+}
+
+.forms-overview {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+.overview-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.overview-card:hover {
+    transform: translateY(-5px);
+}
+
+.overview-number {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, var(--antique-bronze), var(--bronze-dark));
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.overview-card h3 {
+    font-size: 1.3rem;
+    color: var(--obsidian-navy);
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.overview-card p {
+    color: var(--text-light);
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+/* Form Card */
+.form-card {
+    background: linear-gradient(135deg, white, #FFFBF5);
+    border-radius: 16px;
+    padding: 45px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(166, 124, 45, 0.2);
+}
+
+.form-header {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-bottom: 40px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #E0D5C7;
+}
+
+.form-icon {
+    font-size: 3.5rem;
+    flex-shrink: 0;
+}
+
+.form-title-section h2 {
+    font-size: 2rem;
+    color: var(--obsidian-navy);
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.form-title-section p {
+    color: var(--text-light);
+    font-size: 1.05rem;
+}
+
+/* Contribution Form */
+.contribution-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.form-row-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.contribution-form .form-group label {
+    display: block;
+    color: var(--text-dark);
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+}
+
+.contribution-form .form-group input,
+.contribution-form .form-group textarea,
+.contribution-form .form-group select {
+    width: 100%;
+    padding: 14px 18px;
+    border: 2px solid #E0D5C7;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: var(--cream);
+    transition: all 0.3s ease;
+    font-family: 'Arial', sans-serif;
+}
+
+.contribution-form .form-group input:focus,
+.contribution-form .form-group textarea:focus,
+.contribution-form .form-group select:focus {
+    outline: none;
+    border-color: var(--antique-bronze);
+    background-color: white;
+    box-shadow: 0 0 0 3px rgba(166, 124, 45, 0.1);
+}
+
+.contribution-form .form-group textarea {
+    resize: vertical;
+    line-height: 1.6;
+}
+
+.form-hint {
+    display: block;
+    margin-top: 8px;
+    color: var(--text-light);
+    font-size: 0.85rem;
+    font-style: italic;
+}
+
+/* Checkbox Options */
+.checkbox-options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.checkbox-option {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 15px;
+    background-color: white;
+    border: 2px solid #E0D5C7;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.checkbox-option:hover {
+    border-color: var(--antique-bronze);
+    background-color: var(--cream);
+}
+
+.checkbox-option input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    accent-color: var(--antique-bronze);
+}
+
+.checkbox-option span {
+    font-size: 0.95rem;
+    color: var(--text-dark);
+    font-weight: 500;
+}
+
+/* Radio Options */
+.radio-options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.radio-option {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid #E0D5C7;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.radio-option:hover {
+    border-color: var(--antique-bronze);
+    background-color: var(--cream);
+}
+
+.radio-option input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    accent-color: var(--antique-bronze);
+    margin-top: 3px;
+    flex-shrink: 0;
+}
+
+.radio-content {
+    flex: 1;
+}
+
+.radio-content strong {
+    display: block;
+    color: var(--obsidian-navy);
+    font-size: 1.05rem;
+    margin-bottom: 5px;
+}
+
+.radio-content p {
+    color: var(--text-light);
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* Form Checkbox Group */
+.form-checkbox-group {
+    display: flex;
+    align-items: start;
+    gap: 12px;
+    padding: 15px;
+    background-color: var(--cream);
+    border-radius: 8px;
+}
+
+.form-checkbox-group input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    accent-color: var(--antique-bronze);
+    margin-top: 2px;
+    flex-shrink: 0;
+}
+
+.form-checkbox-group label {
+    color: var(--text-dark);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    cursor: pointer;
+}
+
+/* Form Submit Button */
+.form-submit-btn {
+    width: 100%;
+    background: linear-gradient(135deg, var(--antique-bronze), var(--bronze-dark));
+    color: white;
+    padding: 18px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.15rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    box-shadow: 0 6px 20px rgba(166, 124, 45, 0.3);
+}
+
+.form-submit-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(166, 124, 45, 0.5);
+}
+
+/* Thank You Card */
+.thank-you-card {
+    background: linear-gradient(135deg, #F0FDF4, #DCFCE7);
+    border-radius: 16px;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    border: 3px solid #10B981;
+}
+
+.thank-you-icon {
+    font-size: 4rem;
+    margin-bottom: 25px;
+}
+
+.thank-you-card h2 {
+    font-size: 2.3rem;
+    color: var(--obsidian-navy);
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.thank-you-card p {
+    font-size: 1.1rem;
+    color: var(--text-dark);
+    line-height: 1.7;
+    max-width: 600px;
+    margin: 0 auto 35px;
+}
+
+.thank-you-actions {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.thank-you-btn {
+    background: linear-gradient(135deg, var(--antique-bronze), var(--bronze-dark));
+    color: white;
+    padding: 15px 35px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.thank-you-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(166, 124, 45, 0.4);
+}
+
+.thank-you-btn-outline {
+    background-color: transparent;
+    color: var(--antique-bronze);
+    padding: 15px 35px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+    display: inline-block;
+    transition: all 0.3s ease;
+    border: 2px solid var(--antique-bronze);
+}
+
+.thank-you-btn-outline:hover {
+    background-color: var(--antique-bronze);
+    color: white;
+    transform: translateY(-3px);
+}
+
+/* Forms Responsive Styles */
+@media (max-width: 1024px) {
+    .forms-overview {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .forms-hero-content h1 {
+        font-size: 2.2rem;
+    }
+
+    .forms-intro h2 {
+        font-size: 2rem;
+    }
+
+    .form-card {
+        padding: 30px 20px;
+    }
+
+    .form-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .form-row-two {
+        grid-template-columns: 1fr;
+    }
+
+    .checkbox-options {
+        grid-template-columns: 1fr;
+    }
+
+    .thank-you-card {
+        padding: 35px 20px;
+    }
+
+    .thank-you-actions {
+        flex-direction: column;
+    }
+
+    .thank-you-btn,
+    .thank-you-btn-outline {
+        width: 100%;
+        text-align: center;
+    }
+}
