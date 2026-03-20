@@ -12,13 +12,13 @@
     <header>
         <div class="header-container">
             <div class="logo">
-                <a href="index.html" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
+                <a href="File 1.html" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
                     <div class="logo-icon">🕉️</div>
                     <span class="logo-text">Kashi With Pravah</span>
                 </a>
             </div>
             <nav>
-                <a href="index.html">Home</a>
+                <a href="File 1.html">Home</a>
                 <a href="File 2 understanding.html">Sacred Journey</a>
                 <a href="File 3 smart-search.html">Ghats & Temples</a>
                 <a href="File 4 signup.html">Spiritual Services</a>
@@ -30,24 +30,29 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero-container">
-            <div class="hero-content">
-                <h1>Experience the divine soul of Kashi</h1>
-                <h2>Sacred Varanasi</h2>
-                <p>The City of Light, Moksha, and Eternal Spirituality</p>
-                <a href="File 3 smart-search.html" class="hero-btn">Explore Sacred Ghats</a>
-            </div>
-            <div class="hero-visual">
-                <div class="hexagon-container">
-                    <div class="hex hex-1"></div>
-                    <div class="hex hex-2"></div>
-                    <div class="hex hex-3"></div>
-                </div>
+    <!-- Hero Section with Hexagon Images -->
+<section class="hero" id="home">
+    <div class="hero-container">
+        <div class="hero-content">
+            <h1>Experience the divine soul of Kashi</h1>
+            <h2>Sacred Varanasi</h2>
+            <p>The City of Light, Moksha, and Eternal Spirituality</p>
+            <a href="File 3 smart-search.html" class="hero-btn">Explore Sacred Ghats</a>
+        </div>
+        <div class="hero-visual">
+            <div class="hexagon-container">
+                <!-- HEX 1: Ganga Aarti Image -->
+                <div class="hex hex-1" style="background-image: url('images/boat.jpg'); background-size: cover; background-position: center;"></div>
+                
+                <!-- HEX 2: Kashi Vishwanath Image -->
+                <div class="hex hex-2" style="background-image: url('images/food.jpg'); background-size: cover; background-position: center;"></div>
+                
+                <!-- HEX 3: Boat on Ganges Image -->
+                <div class="hex hex-3" style="background-image: url('images/ghat.jpg'); background-size: cover; background-position: center;"></div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Search Bar -->
     <section class="search-section">
@@ -70,27 +75,33 @@
         </div>
     </section>
 
-    <!-- Destinations Section -->
+    <!-- ========== DESTINATIONS SECTION IMAGES ========== -->
+    <!-- Images: dashashwamedh-ghat.jpg, assi-ghat.jpg, manikarnika-ghat.jpg -->
     <section class="destinations-section" id="destinations">
         <div class="destinations-container">
             <h2 class="section-title">Discover the sacred ghats of Kashi & visit 50+ spiritual sites</h2>
             <div class="destinations-grid">
+                <!-- IMAGE 1: Dashashwamedh Ghat -->
                 <div class="destination-card">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect fill='%238B7355' width='400' height='400'/%3E%3Ctext x='50%25' y='50%25' font-size='120' text-anchor='middle' fill='white' dy='.3em'%3E🛕%3C/text%3E%3C/svg%3E" alt="Dashashwamedh Ghat" class="destination-image">
+                    <img src="images/dashashwamedh_ghat.jpg" alt="Dashashwamedh Ghat" class="destination-image">
                     <div class="destination-overlay">
                         <h3 class="destination-name">Dashashwamedh Ghat</h3>
                         <p class="destination-subtitle">Witness the grand Ganga Aarti</p>
                     </div>
                 </div>
+                
+                <!-- IMAGE 2: Assi Ghat -->
                 <div class="destination-card">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect fill='%234A7C59' width='400' height='400'/%3E%3Ctext x='50%25' y='50%25' font-size='120' text-anchor='middle' fill='white' dy='.3em'%3E🛶%3C/text%3E%3C/svg%3E" alt="Assi Ghat" class="destination-image">
+                    <img src="images/assi_ghat.jpg" alt="Assi Ghat" class="destination-image">
                     <div class="destination-overlay">
                         <h3 class="destination-name">Assi Ghat</h3>
                         <p class="destination-subtitle">Where the river meets spirituality</p>
                     </div>
                 </div>
+                
+                <!-- IMAGE 3: Manikarnika Ghat -->
                 <div class="destination-card">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect fill='%236B8E23' width='400' height='400'/%3E%3Ctext x='50%25' y='50%25' font-size='120' text-anchor='middle' fill='white' dy='.3em'%3E🔔%3C/text%3E%3C/svg%3E" alt="Manikarnika Ghat" class="destination-image">
+                    <img src="images/manikarnika2.jpg" alt="Manikarnika Ghat" class="destination-image">
                     <div class="destination-overlay">
                         <h3 class="destination-name">Manikarnika Ghat</h3>
                         <p class="destination-subtitle">The gateway to moksha</p>
@@ -103,7 +114,8 @@
         </div>
     </section>
 
-    <!-- Cities Section (Temples) -->
+    <!-- ========== TEMPLES SECTION IMAGES ========== -->
+    <!-- Images: kashi-vishwanath.jpg, sankat-mochan.jpg, durga-temple.jpg -->
     <section class="cities-section">
         <div class="cities-container">
             <div class="cities-header">
@@ -111,16 +123,21 @@
                 <p>Sacred darshan experiences for spiritual seekers</p>
             </div>
             <div class="cities-grid">
+                <!-- IMAGE 4: Kashi Vishwanath Temple -->
                 <div class="city-card">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect fill='%23D4A574' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' font-size='80' text-anchor='middle' fill='white' dy='.3em'%3E🕉️%3C/text%3E%3C/svg%3E" alt="Kashi Vishwanath">
+                    <img src="images/kashi_temple.jpg" alt="Kashi Vishwanath Temple">
                     <div class="city-label">KASHI VISHWANATH</div>
                 </div>
+                
+                <!-- IMAGE 5: Sankat Mochan Temple -->
                 <div class="city-card">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect fill='%23CD5C5C' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' font-size='80' text-anchor='middle' fill='white' dy='.3em'%3E🙏%3C/text%3E%3C/svg%3E" alt="Sankat Mochan">
+                    <img src="images/landmark1.jpg" alt="Sankat Mochan Temple">
                     <div class="city-label">SANKAT MOCHAN</div>
                 </div>
+                
+                <!-- IMAGE 6: Durga Temple -->
                 <div class="city-card">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect fill='%234682B4' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' font-size='80' text-anchor='middle' fill='white' dy='.3em'%3E🔱%3C/text%3E%3C/svg%3E" alt="Durga Temple">
+                    <img src="images/ghat2.jpg" alt="Durga Temple">
                     <div class="city-label">DURGA TEMPLE</div>
                 </div>
             </div>
@@ -130,29 +147,35 @@
         </div>
     </section>
 
-    <!-- Places to Love Section -->
+    <!-- ========== SPIRITUAL EXPERIENCES SECTION IMAGES ========== -->
+    <!-- Images: ganga-aarti.jpg, boat-ride.jpg, bhajan-sandhya.jpg -->
     <section class="places-section">
         <div class="places-container">
             <h2 class="section-title">Spiritual Experiences You Must Embrace</h2>
             <div class="places-grid">
+                <!-- IMAGE 7: Ganga Aarti -->
                 <div class="place-card">
-                    <div class="place-image"></div>
+                    <div class="place-image" style="background-image: url('images/arti.jpg'); background-size: cover; background-position: center;"></div>
                     <div class="place-info">
                         <h3 class="place-name">Ganga Aarti</h3>
                         <p class="place-location">Dashashwamedh Ghat</p>
                         <a href="#" class="place-btn">Book Aarti 🔔</a>
                     </div>
                 </div>
+                
+                <!-- IMAGE 8: Boat Ride -->
                 <div class="place-card">
-                    <div class="place-image"></div>
+                    <div class="place-image" style="background-image: url('images/boat.jpg'); background-size: cover; background-position: center;"></div>
                     <div class="place-info">
                         <h3 class="place-name">Sunrise Boat Ride</h3>
                         <p class="place-location">Assi to Manikarnika</p>
                         <a href="#" class="place-btn">Book Boat 🛶</a>
                     </div>
                 </div>
+                
+                <!-- IMAGE 9: Bhajan Sandhya -->
                 <div class="place-card">
-                    <div class="place-image"></div>
+                    <div class="place-image" style="background-image: url('images/pexels-neha-mishra-1851906907-28573931.jpg'); background-size: cover; background-position: center;"></div>
                     <div class="place-info">
                         <h3 class="place-name">Bhajan Sandhya</h3>
                         <p class="place-location">Tulsi Ghat</p>
@@ -194,7 +217,8 @@
         </div>
     </section>
 
-    <!-- Food Section -->
+    <!-- ========== PRASAD & LOCAL FOOD SECTION IMAGES ========== -->
+    <!-- Images: kachori.jpg, malaiyyo.jpg, thandai.jpg, paan.jpg -->
     <section class="food-section">
         <div class="food-container">
             <div class="food-header">
@@ -203,17 +227,24 @@
             </div>
             <h3 class="section-title">PICK YOUR FAVORITE BANARASI DELIGHT</h3>
             <div class="food-grid">
+                <!-- IMAGE 10: Kachori Sabzi -->
                 <div class="food-card">
-                    <div class="food-image"></div>
+                    <div class="food-image" style="background-image: url('images/food.jpg'); background-size: cover; background-position: center;"></div>
                 </div>
+                
+                <!-- IMAGE 11: Malaiyyo -->
                 <div class="food-card">
-                    <div class="food-image"></div>
+                    <div class="food-image" style="background-image: url('images/food1.jpg'); background-size: cover; background-position: center;"></div>
                 </div>
+                
+                <!-- IMAGE 12: Thandai -->
                 <div class="food-card">
-                    <div class="food-image"></div>
+                    <div class="food-image" style="background-image: url('images/food2.jpg'); background-size: cover; background-position: center;"></div>
                 </div>
+                
+                <!-- IMAGE 13: Banarasi Paan -->
                 <div class="food-card">
-                    <div class="food-image"></div>
+                    <div class="food-image" style="background-image: url('images/food5.jpg'); background-size: cover; background-position: center;"></div>
                 </div>
             </div>
             <div style="text-align: center; margin-top: 40px;">
@@ -222,18 +253,24 @@
         </div>
     </section>
 
-    <!-- Landmarks Section -->
+    <!-- ========== CULTURAL LANDMARKS SECTION IMAGES ========== -->
+    <!-- Images: ramnagar-fort.jpg, bharat-mata.jpg, sarnath.jpg -->
     <section class="landmarks-section">
         <div class="landmarks-container">
             <div class="landmarks-grid">
+                <!-- IMAGE 14: Ramnagar Fort -->
                 <div class="landmark-card">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='350'%3E%3Crect fill='%235F7F8F' width='400' height='350'/%3E%3Ctext x='50%25' y='50%25' font-size='100' text-anchor='middle' fill='white' dy='.3em'%3E🏰%3C/text%3E%3C/svg%3E" alt="Ramnagar Fort" class="landmark-image">
+                    <img src="images/rajasthan.jpg" alt="Ramnagar Fort" class="landmark-image">
                 </div>
+                
+                <!-- IMAGE 15: Bharat Mata Mandir -->
                 <div class="landmark-card">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='350'%3E%3Crect fill='%23CD853F' width='400' height='350'/%3E%3Ctext x='50%25' y='50%25' font-size='100' text-anchor='middle' fill='white' dy='.3em'%3E🕉️%3C/text%3E%3C/svg%3E" alt="Bharat Mata" class="landmark-image">
+                    <img src="images/bharatmata_mandir.jpg" alt="Bharat Mata Mandir" class="landmark-image">
                 </div>
+                
+                <!-- IMAGE 16: Sarnath -->
                 <div class="landmark-card">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='350'%3E%3Crect fill='%234A7C8C' width='400' height='350'/%3E%3Ctext x='50%25' y='50%25' font-size='100' text-anchor='middle' fill='white' dy='.3em'%3E🪷%3C/text%3E%3C/svg%3E" alt="Sarnath" class="landmark-image">
+                    <img src="images/sarnath.jpg" alt="Sarnath - Where Buddha taught" class="landmark-image">
                 </div>
             </div>
         </div>
